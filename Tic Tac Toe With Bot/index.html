@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="shortcut icon" type="image/jpg" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Tic Tac Toe With Bot</li>
+        </ul>
+    </nav>
+    <div class="game">
+        <div class="container">
+            <div class="box bt-0 bl-0" id="box_0">X</div>
+            <div class="box bt-0" id="box_1" onclick="print(1)"></div>
+            <div class="box bt-0 br-0" id="box_2" onclick="print(2)"></div>
+            <div class="box bl-0" id="box_3" onclick="print(3)"></div>
+            <div class="box" id="box_4" onclick="print(4)"></div>
+            <div class="box br-0" id="box_5" onclick="print(5)"></div>
+            <div class="box bb-0 bl-0" id="box_6" onclick="print(6)"></div>
+            <div class="box bb-0" id="box_7" onclick="print(7)"></div>
+            <div class="box bb-0 br-0" id="box_8" onclick="print(8)"></div>
+        </div>
+        <!-- <div>
+            <span id="info">Player&nbsp;<span id="player"> X</span><span id="win">'s Turn!!</span></span>
+        </div>
+        <div>
+            <button id="replay" onclick=document.location.reload(true)>Play Again</button>
+        </div> -->
+        <div>
+            <span id="info">Your Turn!!</span></span>
+        </div>
+        <div>
+            <button id="replay" onclick=document.location.reload(true)>Play Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
