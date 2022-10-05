@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    height: 10vh;
+    font-size: 8vh;
+    font-family: 'Rowdies', cursive;
+}
+.game{
+    background-color: rgb(62, 184, 255);
+    justify-content: center;
+    height: 90vh;
+}
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3,15vh);
+    grid-template-rows: repeat(3,15vh);
+    font-family: 'Rowdies', cursive;
+    border: 5px solid rgba(65, 58, 58, 0.8);
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.box{
+    border: 5px solid black;
+    text-align: center;
+    font-size: 13vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    background-color: beige;
+}
+#info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    font-size: 8vh;
+    font-family: 'Rowdies', cursive;
+    color: beige;
+}
+#replay{
+    background-color: black;
+    color: beige;
+    width: 20vw;
+    margin-left: 40vw;
+    height: 10vh;
+    font-size: 4vh;
+    border-radius: 5vh;
+}
+.bt-0{
+    border-top: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+.br-0{
+    border-right: 0;
+}
